@@ -1,0 +1,21 @@
+@import "src/Mixins/mixins";
+.lost{
+  margin: 40px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+
+  &__find{
+    width: 200px;
+    height: 200px;
+  }
+  &__title{
+    @include text(800,28px,17px,#3D3D3D);
+    margin-bottom: 18px;
+  }
+  &__txt{
+    @include text(500,20px,17px,#3D3D3D);
+    margin-bottom: 18px;
+  }
+}

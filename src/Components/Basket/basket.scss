@@ -1,0 +1,15 @@
+@import "src/Mixins/mixins";
+.basket{
+  padding: 36px 0 87px 0;
+  &__wrapper{
+    display: flex;
+    column-gap: 86px;
+  }
+  &__list{
+    display: flex;
+    column-gap: 4px;
+  }
+  &__link{
+    @include text(700,15px,16px,#3D3D3D);
+  }
+}

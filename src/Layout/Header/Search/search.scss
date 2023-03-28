@@ -1,0 +1,17 @@
+.search{
+  border: 1px solid rgba(61, 61, 61, 1);
+  border-radius: 20px;
+  padding:8px 20px;
+  display: flex;
+  align-items: center;column-gap: 10px;
+  &__input{
+    border: none;
+    outline: none;
+  }
+  &__close{
+    svg:hover{
+      transition:0.3s;
+      fill: #000000;
+    }
+  }
+}

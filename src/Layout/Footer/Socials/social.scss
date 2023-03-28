@@ -1,0 +1,60 @@
+@import "src/Mixins/mixins";
+.social{
+  &__wrapper{
+    padding: 32px 0 27px 23px;
+    display: flex;
+  }
+  &__box{
+    display: flex;
+  }
+  &__title{
+    @include text(700,18px,16px,#3D3D3D);
+    margin: 0 0 8px 0;
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    row-gap:5px;
+  }
+  &__item{
+    @include text(400,14px,30px,#3D3D3D);
+  }
+  &__inner{
+    margin-right:186px;
+  }
+  &__inner-sec{
+    margin-right:126px;
+  }
+  &__inner-third{
+    margin-right:179px;
+  }
+  &__media{
+    @include text(700,18px,16px, #3D3D3D);
+    margin: 0 0 20px 0;
+  }
+  &__soc{
+    display: flex;
+    column-gap:10px;
+    margin-bottom:33px;
+  }
+  &__net{
+    border: 1px solid rgba(70, 163, 88, 0.2);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    &:hover{
+      transition:0.5s;
+      background: #46A358;
+      svg{
+        fill: #ffffff;
+        opacity: 9;
+      }
+    }
+  }
+  &__accept{
+    @include text(700,18px,16px,#3D3D3D);
+  }
+}

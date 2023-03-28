@@ -1,0 +1,25 @@
+@import "src/Mixins/mixins";
+.description{
+  &__block{
+    display: flex;
+    column-gap: 30px;
+    margin-bottom:18px;
+  }
+  &__title{
+    @include text(700,17px,16px,#46A358);
+  }
+  &__subtitle{
+    @include text(700,17px,16px,#3D3D3D);
+  }
+  &__txt{
+   @include text(400,14px,24px,#727272);
+    margin-bottom: 18px;
+  }
+  &__room{
+    @include text(700,14px,24px,#3D3D3D);
+  }
+  &__text{
+    @include text(400,14px,24px,#727272);
+    margin-bottom: 18px;
+  }
+}

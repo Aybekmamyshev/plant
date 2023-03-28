@@ -1,0 +1,103 @@
+@import "src/Mixins/mixins";
+.goods{
+  width: 100%;
+  margin-bottom: 31px;
+  &__category{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__list{
+    display: flex;
+    column-gap: 38px;
+
+  }
+  &__sort{
+    display: flex;
+    column-gap: 6px;
+    position: relative;
+    cursor:pointer;
+  }
+  &__item{
+    @include text(400,15px,16px,#3D3D3D);
+
+    cursor:pointer;
+     &:hover{
+     &::after{
+       display: block;
+       content: '';
+       width: 100%;
+       height: 2px;
+       background: #46A358;
+
+     }
+    }
+  }
+  &__short{
+    @include text(400,15px,16px,#3D3D3D);
+  }
+  &__by{
+    @include text(400,15px,16px,#3D3D3D);
+
+
+  }
+  &__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 76px;
+  }
+  &__pop{
+    background:#46A358;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    position: absolute;
+    bottom:-120px;
+    z-index:100;
+    right: 0;
+    color: white;
+    border-radius: 5px;
+
+
+  }
+  &__el{
+    @include text(500,14px,15px,#ffffff);
+    text-transform: uppercase;
+    padding: 7px 0 ;
+
+    &_id{
+      background: white;
+      color: #46A358;
+    }
+    &:hover{
+      background:#ffffff50;
+      color: #ffffff;
+    }
+    &:last-child{
+      border-radius:0 0 5px 5px;
+    }
+  }
+  &__type{
+    @include text(500,14px,15px,#46A358);
+    text-transform: uppercase;
+    padding: 7px 0 2px 0 ;
+    width: 80px;
+    display:inline-block;
+    text-align: center;
+    border-bottom:  1px dashed #46A358 ;
+    &_id{
+      color: #46A358;
+    }
+    &:hover{
+      background: white;
+      color: #50C878;
+      border-bottom:  1px dashed #50C878;
+
+    }
+  }
+  &__line{
+    margin:4px 0 0 4px ;
+  }
+
+}

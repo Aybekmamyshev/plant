@@ -1,0 +1,7 @@
+@import "./src/Mixins/mixins";
+.footer{
+  padding: 100px 0 13px 0;
+   &__first{
+     display: flex;
+   }
+}

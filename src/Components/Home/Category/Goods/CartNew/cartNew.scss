@@ -1,0 +1,48 @@
+@import "src/Mixins/mixins";
+.cartNew{
+  position: relative;
+  border-top:2px solid #46A358;
+  position:relative;
+  width: 240px;
+  margin-top: 38px;
+  &__pic{
+    margin-bottom:31px;
+  }
+  &__img{
+    width: 250px;
+    height: 250px;
+  }
+  &__title{
+    @include text(400,16px,16px,#3D3D3D);
+    margin-bottom: 6px;
+  }
+  &__price{
+    @include text(700,18px,16px,#46A358);
+  }
+  &__icons{
+    display: flex;
+    column-gap: 26px;
+    justify-content: center;
+  }
+  &__basket,&__heart,&__search{
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: #00000008;
+  }
+  &__new{
+    position:absolute;
+    top:5px;
+    width: 40px;
+    padding: 3px 0 4px 0;
+    text-align: center;
+    background: #F07400;
+    @include text(700,14px,15px,#ffffffff);
+    @include cormorant;
+    border-radius: 5px;
+
+  }
+}

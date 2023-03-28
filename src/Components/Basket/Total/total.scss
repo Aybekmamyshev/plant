@@ -1,0 +1,74 @@
+@import "src/Mixins/mixins";
+.total{
+  margin-top: 52px;
+  width: 332px;
+  &__title{
+    @include text(700,18px,16px,#3D3D3D);
+    margin-bottom: 22px;
+  }
+  &__subtitle{
+    @include text(400,14px,16px,#3D3D3D);
+    margin-bottom: 8px;
+  }
+  &__wrapper{
+    display: flex;
+    margin-bottom: 30px;
+  }
+ &__apply{
+   width: 102px;
+   height: 40px;
+   background: #46A358;
+   @include text(700,15px,16px,#ffffff);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 0 3px 3px 0;
+ }
+  &__input{
+    border: none;
+    outline:none;
+    font-size: 15px;
+  }
+  &__label{
+    padding: 10px 0 10px 8px;
+
+    width: 332px;
+    border: 1px solid #00000020;
+  }
+  &__wrapp{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 29px;
+  }
+  &__btn{
+    @include text(700,15px,16px,#ffffff);
+    background: #46A358;
+    padding: 12px 89px;
+  }
+  &__btn-sec{
+    @include text(700,15px,16px,#46A358);
+    background: #00000003;
+    padding: 12px 89px;
+  }
+  &__txt{
+    @include text(400,15px,16px,#3D3D3D);
+    @include cormorant
+  }
+  &__money {
+    @include text(500, 15px, 16px, #3D3D3D);
+  }
+  &__dollar {
+    @include text(400, 12px, 16px, #46A358);
+  }
+  &__all {
+    @include text(700, 16px, 16px, #3D3D3D);
+  }
+  &__num {
+    @include text(700, 18px, 16px, #46A358);
+  }
+}

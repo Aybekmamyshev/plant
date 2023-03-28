@@ -1,0 +1,57 @@
+@import "src/Mixins/mixins";
+.join{
+  &__wrapper{
+    background: #FBFBFB;
+    column-gap: 62px;
+    padding:30px 23px 23px 23px;
+    display: flex;
+  }
+  &__wrapp{
+    display: flex;
+    column-gap: 60px;
+  }
+  &__image{
+    margin:0 0 20px 0;
+  }
+  &__title{
+    @include text(700,17px,16px,#3D3D3D);
+    margin: 0 0 9px 0;
+  }
+  &__txt{
+    @include text(400,14px,22px,#727272);
+    width: 194px;
+  }
+  &__subtitle{
+    @include text(700,18px,16px, #3D3D3D);
+    margin:0 0 18px 0;
+  }
+  &__label{
+    display: flex;
+    margin:0 0 17px 0;
+
+  }
+  &__input{
+    padding: 12px 10px 12px 11px;
+    outline: none;
+    border: 1px solid #727272;
+  }
+  &__btn{
+    width: 85px;
+    height: 43px;
+    background: #46A358;
+    border-radius: 0 6px 6px 0;
+    color: #ffffff;
+  }
+  &__text{
+    @include text(400,13px,22px, #727272);
+    width: 354px;
+  }
+  &__image{
+    width: 50px;
+    height: 50px;
+  }
+  &__block:not(:last-child){
+    border-right: 1px solid rgba(70, 163, 88, 0.1);
+    padding-right: 26px;
+  }
+}

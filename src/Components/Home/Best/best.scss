@@ -1,0 +1,33 @@
+@import "src/Mixins/mixins";
+.best{
+  .container{
+     display: flex;
+    align-items: center;
+    column-gap: 123px;
+  }
+  &__title{
+    @include text(500,14px,16px,#3D3D3D);
+    @include cormorant;
+    margin-left: 10px;
+  }
+  &__subtitle{
+    @include text(900,70px,70px, #3D3D3D);
+    width: 650px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+
+  }
+  &__txt{
+    @include text(400,14px,23px, #727272);
+    @include cormorant;
+    width: 657px;
+    margin-bottom: 44px;
+  }
+  &__btn{
+    @include text(700,16px,22px, #727272);
+    background: #46A358;
+    padding: 11px 26px;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+}

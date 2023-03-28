@@ -1,0 +1,283 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "./assets/01 3.png",
+      "title": "Barberton Daisy",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "119.00",
+      "category": [
+        {
+          "id": "3dace3e9-2af8-498f-8603-ced6e3ab52bb",
+          "size": "s"
+        },
+        {
+          "id": 1,
+          "title": "Barberton Daisy",
+          "price": "119.00",
+          "new": true,
+          "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. ",
+          "count": 6
+        }
+      ],
+      "new": true,
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. "
+    },
+    {
+      "id": 2,
+      "image": "./assets/image 2 (3).png",
+      "title": "African Violet",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "349.00",
+      "category": [],
+      "new": true,
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. "
+    },
+    {
+      "id": 3,
+      "image": "./assets/image 7 (1).png",
+      "title": "Beach Spider Lily",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "169.00",
+      "category": [],
+      "new": true,
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. "
+    },
+    {
+      "id": 4,
+      "image": "./assets/image 8 (1).png",
+      "title": "Blushing Bromeliad",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "189.00",
+      "category": [],
+      "new": true,
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. "
+    },
+    {
+      "id": 5,
+      "image": "./assets/image 9 (1).png",
+      "title": "Aluminsizesant",
+      "types": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "129.00",
+      "category": [],
+      "new": true,
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. "
+    },
+    {
+      "id": 6,
+      "image": "./assets/image 9 (1).png",
+      "title": "Bird's Nest Fern",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "159.00",
+      "category": [],
+      "new": true,
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. "
+    },
+    {
+      "id": 7,
+      "image": "./assets/image 8 (1).png",
+      "title": "Broadleaf Lady Palm",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "134.00",
+      "category": [],
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. ",
+      "sale": true
+    },
+    {
+      "id": 8,
+      "image": "./assets/product-20-320x320 1.png",
+      "title": "Chinese Evergreen",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "199.00",
+      "category": [],
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. ",
+      "sale": true
+    },
+    {
+      "id": 9,
+      "image": "./assets/image 8 (1).png",
+      "title": "American Daisy",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "234.00",
+      "category": [],
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. ",
+      "sale": true
+    },
+    {
+      "id": 10,
+      "image": "./assets/product-20-320x320 1.png",
+      "title": "Daisy",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "233.00",
+      "category": [],
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. ",
+      "sale": true
+    },
+    {
+      "id": 11,
+      "image": "./assets/image 2 (3).png",
+      "title": "Barberton kyrgistan",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "444.00",
+      "category": [],
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. ",
+      "sale": true
+    },
+    {
+      "id": 12,
+      "image": "./assets/image 7 (1).png",
+      "title": "Barberton Daisy",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "555.00",
+      "category": [],
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. "
+    },
+    {
+      "id": 13,
+      "image": "./assets/image 9 (1).png",
+      "title": "Barberton Daisy",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "776.00",
+      "category": [],
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. "
+    },
+    {
+      "id": 14,
+      "image": "./assets/product-20-320x320 1.png",
+      "title": "Russian",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "345.00",
+      "category": [],
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. "
+    },
+    {
+      "id": 15,
+      "image": "./assets/image 10.png",
+      "title": "Portugal Daisy",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "234.00",
+      "category": [],
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. "
+    },
+    {
+      "id": 16,
+      "image": "./assets/01 3.png",
+      "title": "France Daisy",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "price": "349.00",
+      "category": [],
+      "text": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. "
+    }
+  ],
+  "buy": [
+    {
+      "newObject": {
+        "id": "218247a0-ec5d-4b2c-91f2-ed59e0e8cd7d",
+        "size": "l"
+      },
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "login": "ayba123",
+      "email": "ayba@mail.ru",
+      "password": "ayba123",
+      "confirm": "ayba123",
+      "id": 1
+    },
+    {
+      "email": "ayba@mail.ru",
+      "password": "ayba123",
+      "confirm": "ayba123",
+      "id": 2
+    },
+    {
+      "login": "aibek",
+      "email": "aibek@mail.ru",
+      "password": "aibek123",
+      "confirm": "aibek123",
+      "id": 3
+    }
+  ]
+}

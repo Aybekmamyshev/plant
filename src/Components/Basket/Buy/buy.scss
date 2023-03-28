@@ -1,0 +1,88 @@
+@import "src/Mixins/mixins";
+
+.buy{
+  &__row{
+    display: flex;
+    margin-top: 51px;
+    border-bottom: 1px solid #00000020;
+    padding-bottom: 11px;
+  }
+  &__title{
+    @include text(500,16px,16px,#3D3D3D);
+    &_first{
+      margin-right: 238px;
+    }
+    &_sub{
+      margin-right: 108px;
+    }
+    &_center{
+      margin-right:97px;
+    }
+    &_last{
+      margin-right: 50px;
+    }
+    &_clear{
+      color: orange;
+      cursor: pointer;
+      border-bottom: 1px dashed orange;
+      padding-bottom: 5px;
+      &:hover{
+        color:#F4CA16;
+ 
+      }
+    }
+  }
+  &__row-sec{
+    display: flex;
+    flex-direction: column;
+  }
+  &__block{
+    display: flex;
+    align-items: center;
+  }
+  &__wrapp{
+    display: flex;
+    align-items: center;
+    margin-right: 72px;
+  }
+  &__price{
+    @include text(500,16px,16px,#727272);
+    margin-right: 89px;
+  }
+  &__add{
+    margin-right: 65px;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    width: 100px;
+  }
+  &__total{
+    margin-right: 55px;
+    @include text(700,16px,16px,#46A358);
+    width: 70px;
+  }
+  &__name{
+    @include text(500px,16px,16px,#3D3D3D);
+    width: 150px;
+  }
+  &__text{
+    @include text(400px,14px,14px,#A5A5A5);
+  }
+  &__btn{
+    width: 25px;
+    height: 25px;
+    background: #46A358;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:#ffffff;
+  }
+  &__count{
+    @include text(400,17px,10px,#3D3D3D);
+  }
+  &__pic{
+    width: 70px;
+    height: 70px;
+  }
+}

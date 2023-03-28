@@ -1,0 +1,113 @@
+@import "src/Mixins/mixins";
+.user{
+  height: 100%;
+  width:100%;
+  display: flex;
+  justify-content:center;
+  background:#00000000;
+  position:fixed;
+  z-index: 100;
+  &__form{
+  padding: 50px 0 0 0 ;
+  width: 500px;
+  height: 656px;
+  text-align: center;
+  backdrop-filter: blur(9px);
+  background: #00000020;
+   top:-70px;
+  border-radius: 4px;
+    position: absolute;
+
+ }
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  &__close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  &__login{
+    @include text(500,20,16px,#3D3D3D);
+    border-right: 1px solid #3D3D3D ;
+    padding-right: 10px;
+    &:hover{
+      color: #46A358;
+    }
+    &.active{
+      color: #46A358;
+    }
+  }
+  &__register{
+    padding-left: 10px;
+    @include text(500,20,16px,#3D3D3D);
+
+    &.green{
+      color: #46A358;
+    }
+    &:hover{
+      color: #46A358;
+    }
+  }
+  &__enter{
+    @include text(400,13px,16px,#3D3D3D);
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  &__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+  }
+  &__label{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    input{
+      width: 300px;
+      padding: 10px 0 10px 14px;
+      outline: none;
+      border: none;
+    }
+  }
+  &__btn{
+    @include text(700,16px,16px,#ffffff);
+    background: #46A358;
+    border-radius: 5px;
+    width: 300px;
+    padding: 13px 0 13px 0;
+    margin:41px 0 36px 0;
+  }
+  &__with {
+    @include text(400,13px,16px,#3D3D3D);
+    margin-bottom: 27px;
+  }
+  &__social{
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+    width: 300px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    height: 40px;
+    align-items: center;
+    margin:0 auto 15px auto;
+  }
+  &__field{
+    @include text(400,16px,17px,#3D3D3D);
+  }
+  &__in{
+    margin-bottom: 20px;
+    @include text(500,16px,17px,#3D3D3D)
+  }
+  &__reg{
+    color: #46A358;
+    &:hover{
+      border-bottom: 1px dashed #46A358;
+    }
+  }
+}

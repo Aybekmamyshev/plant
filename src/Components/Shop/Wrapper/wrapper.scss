@@ -1,0 +1,18 @@
+@import "src/Mixins/mixins";
+.wrapper{
+   .container{
+    padding: 36px 0 68px 0;
+   }
+  &__inner{
+    display: flex;
+    column-gap: 53px;
+
+  }
+  &__title{
+    @include text(700,15px,16px,#3D3D3D);
+    margin-bottom: 45px;
+  }
+  &__div{
+    display: flex;
+  }
+}

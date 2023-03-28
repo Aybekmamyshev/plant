@@ -1,0 +1,15 @@
+@import "src/Mixins/mixins";
+.plant{
+  &__picture{
+    margin-top: 20px;
+  }
+  &__super{
+    margin: 20px 0 20px 0;
+  }
+  &__procent{
+    @include text(700,23px,16px,#3D3D3D);
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+}

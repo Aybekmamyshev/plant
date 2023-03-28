@@ -1,0 +1,63 @@
+@import "src/Mixins/mixins";
+.navbar{
+  background: #00000005;
+  padding: 14px 24px 19px 18px;
+  width: 310px;
+  height: 774px;
+   &__title{
+     @include text(700,18px,16px,#3D3D3D);
+     margin-bottom: 8px;
+     @include cormorant;
+   }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    margin-bottom: 36px;
+  }
+  &__span{
+    position: absolute;
+    right: 15px;
+  }
+  &__subtitle{
+    @include text(700,18px,16px,#3D3D3D);
+    margin-bottom: 20px;
+  }
+  &__item{
+    @include text(700,15px,48px,#3D3D3D);
+  }
+  &__price{
+    @include text(400,15px,16px,#3D3D3D);
+    margin-bottom: 24px;
+  }
+  &__filter{
+    background: #46A358;
+    padding: 3px 26px;
+    border-radius:6px;
+    @include text(700,16px,28px,#ffffff);
+    @include cormorant;
+  }
+  &__item-size{
+    @include text(400,15px,40px,#3D3D3D)
+  }
+  &__num{
+    position:absolute;
+    right:15px;
+  }
+  &__size{
+    position: relative;
+  }
+  &__inner{
+    margin-top:46px;
+  }
+  &__input{
+    margin-bottom: 24px;
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 209px;
+    height: 7px;
+    border-radius: 5px;
+    background:#00000020;
+    background-size: 70% 100%;
+  }
+}

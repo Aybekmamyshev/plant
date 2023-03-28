@@ -1,0 +1,36 @@
+{
+  "header" :{
+    "id": "Home",
+    "id2" : "Shop",
+    "id3": "Plant",
+    "id4": "Blog"
+  },
+  "about" : {
+    "search" : "Search...",
+    "login" : "Login"
+  },
+  "let": {
+    "list1": "Welcome to GreenShop",
+    "list2": "Let’s Make a Better Planet",
+    "list3": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+    "list4": "SHOP NOW"
+  },
+  "array" : {
+    "all": "All Plants",
+    "new" : "New Arrivals",
+    "sale": "Sale",
+    "sort": "Short by:Default sorting",
+    "arr" : ["sort by price","sort by words"]
+
+  },
+  "nav": {
+    "categories": "Categories",
+    "price" : "Price:",
+    "filter": "Filter",
+    "size": "Size",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "range": "Price Range"
+  }
+}
